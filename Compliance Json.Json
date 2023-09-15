@@ -1,0 +1,84 @@
+	{
+		"Rules":[
+			{
+				"SettingName":"DefenderStatus",
+				"Operator":"IsEquals",
+				"DataType":"Boolean",
+				"Operand":"True",
+				"MoreInfoUrl":"https://learn.microsoft.com/en-us/mem/intune/protect/device-compliance-get-started",
+				"RemediationStrings":[
+					{
+						"Language":"en_us",
+						"Title":"Defder Antivirus Should be activate",
+						"Description":"Defender Antivirus Should be Activate"
+					}
+									]
+			},
+			
+			{
+				"SettingName":"DefenderVersion",
+				"Operator":"GreaterEquals",
+				"DataType":"Version",
+				"Operand":"4.18",
+				"MoreInfoUrl":"https://learn.microsoft.com/en-us/mem/intune/protect/device-compliance-get-started",
+				"RemediationStrings":[
+					{
+						"Language":"en_us",
+						"Title": "Defder Antivirus Should be activate",
+						"Description": "Defender Antivirus Should be Activate"
+					}
+									]
+			},
+
+			{
+				"SettingName":"DefenderServiceStatus",
+				"Operator":"IsEquals",
+				"DataType":"Boolean",
+				"Operand":"True",
+				"MoreInfoUrl":"https://learn.microsoft.com/en-us/mem/intune/protect/device-compliance-get-started",
+				"RemediationStrings":[
+					{
+						"Language":"en_us",
+						"Title": "Defder Antivirus Should be activate",
+						"Description": "Defender Antivirus Should be Activate"
+					}
+									]
+			},				
+			
+			{
+				"SettingName":"SigStatus",
+				"Operator":"LessEquals",
+				"DataType":"Int64",
+				"Operand":"14",
+				"MoreInfoUrl":"https://learn.microsoft.com/en-us/mem/intune/protect/device-compliance-get-started",
+				"RemediationStrings":[
+					{
+						"Language":"en_us",
+						"Title": "Defder Antivirus Should be activate",
+						"Description": "Defender Antivirus Should be Activate"
+					}
+									]
+			},		
+
+			{
+				"SettingName":"OSVersion",
+				"Operator":"GreaterEquals",
+				"DataType":"Version",
+				"Operand":"10.0",
+				"MoreInfoUrl":"https://learn.microsoft.com/en-us/mem/intune/protect/device-compliance-get-started",
+				"RemediationStrings":[
+					{
+						"Language":"en_us",
+						"Title": "Defder Antivirus Should be activate",
+						"Description": "Defender Antivirus Should be Activate"
+					}
+									]
+			}
+
+	
+			
+			
+				]
+	}
+	
+	
